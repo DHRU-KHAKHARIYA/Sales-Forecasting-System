@@ -22,7 +22,8 @@ saved_models/*.h5
 saved_models/*.pt
 saved_models/*.pth
 saved_models/*.json
-saved_models/*.csv
+saved_models/eval_predictions.csv
+saved_models/forecast_predictions.csv
 !saved_models/.gitkeep
 
 # Data files
@@ -47,5 +48,5 @@ Thumbs.db
 .env
 .env.local
 
-# Claude Code
+# Project config
 CLAUDE.md
