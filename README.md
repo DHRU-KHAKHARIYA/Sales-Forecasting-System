@@ -2,6 +2,11 @@
 
 End-to-end time-series forecasting system that predicts next 8 weeks of beverage sales across 43 US states. Trains 5 models per state, auto-selects the best based on MAPE, and serves predictions via FastAPI + Streamlit dashboard.
 
+## Dashboard
+
+![Dashboard Overview](docs/images/dashboard-overview.png)
+![Forecast View](docs/images/dashboard-forecast.png)
+
 ## Results
 
 | Model | Avg MAPE | States Won |
