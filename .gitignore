@@ -1,0 +1,51 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Model artifacts
+saved_models/*.pkl
+saved_models/*.joblib
+saved_models/*.h5
+saved_models/*.pt
+saved_models/*.pth
+saved_models/*.json
+saved_models/*.csv
+!saved_models/.gitkeep
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.json
+!data/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Claude Code
+CLAUDE.md
